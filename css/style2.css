@@ -1,0 +1,148 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background-color: #F9F9F9;
+}
+h1 {
+	font-weight: 300;
+	color: black;
+	font-size: 24pt;
+}
+h3 {
+	font-weight: 400;
+	font-size: 14pt;
+}
+h4 {
+	font-weight: 400;
+	color: #C1C1C1;
+	font-size: 12pt;
+}
+.title {
+	padding-top: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+p {
+	font-weight: 300;
+}
+#a {
+	font-weight: 300;
+}
+b {
+	font-weight: 400;
+}
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;	
+	font-size: 10pt;
+	font-weight: 300;	
+	letter-spacing: 2px;
+}
+.tabs {
+	padding-right: 5%;
+}
+li {
+	float: right; 
+}
+li a {
+	display: block; 
+	color: gray; 
+	text-align: center; 
+	padding: 16px 20px;
+	text-decoration: none; 
+}
+li a:hover:not(.active) {
+	color: black; 
+}
+.footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: white;
+	color: gray;
+	margin-top: 100px;
+	height: 80px;
+}
+ul.foot {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	bottom: 0;
+	left: 0;
+	width: 100%;	
+	font-size: 10pt;
+	font-weight: 300;	
+	letter-spacing: 2px;
+}
+.name {
+	bottom: 0;
+	float: right;
+	padding-right: 5%;
+	font-size: 8pt;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+.name2 {
+	padding-right: 20px;
+}
+li#pli {
+	float: left;
+}
+.pic {
+	height: 350px;
+}
+.us {
+	margin-left: 300px;
+}
+input[type=text], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid white; 
+	border-radius: 4px; 
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+textarea {
+	resize: none
+}
+input[type=submit] {
+	background-color: #4CAF50; 
+	color: white;
+	padding: 6px 20px; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	width: 200px;
+	font-size: 12pt;
+	font-weight: 300;
+	margin-top: 30px;
+}
+input[type=submit]:hover {
+	background-color: #45a049; 
+}
+.formhug {
+	margin-left: 10%;
+	width: 400px;
+}
+@media only screen and (max-width: 500px){
+    .formhug {
+        width: 80%;
+    }
+}
+label {
+    color: #C1C1C1; 
+    font-weight: 300; 
+}

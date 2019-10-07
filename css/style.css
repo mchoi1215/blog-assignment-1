@@ -1,0 +1,149 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background-color: #F9F9F9;
+}
+h1 {
+	font-weight: 300;
+	color: black;
+	font-size: 30pt;
+}
+h4 {
+	font-weight: 300;
+	color: #C1C1C1;
+	font-size: 16pt;
+}
+.title {
+	padding-top: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+h3 {
+	font-weight: 300;
+	color: #1D1D1D;
+	font-size: 18pt;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 50px;
+}
+p {
+	font-weight: 300;
+	color: #C1C1C1;
+	font-size: 12pt;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#a {
+	font-weight: 300;
+}
+b {
+	font-weight: 400;
+}
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;	
+	font-size: 10pt;
+	font-weight: 300;	
+	letter-spacing: 2px;
+}
+.tabs {
+	padding-right: 5%;
+}
+li {
+	float: right; 
+}
+li a {
+	display: block; 
+	color: gray; 
+	text-align: center; 
+	padding: 16px 20px;
+	text-decoration: none; 
+}
+li a:hover:not(.active) {
+	color: black; 
+}
+.footer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: white;
+		color: gray;
+		margin-top: 100px;
+		height: 80px;
+}
+ul.foot {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+
+	bottom: 0;
+	left: 0;
+	width: 100%;	
+	font-size: 10pt;
+	font-weight: 300;	
+	letter-spacing: 2px;
+}
+.name {
+	bottom: 0;
+	float: right;
+	padding-right: 5%;
+	font-size: 8pt;
+	font-weight: 200;
+	letter-spacing: 1px;
+
+}
+.name2 {
+	padding-right: 20px;
+}
+li#pli {
+	float: left;
+}
+.card {
+	height: 400px;
+	background-color: white;
+	box-shadow: 0 4px 12px 0 rgba(0,0,0,0.1);
+	transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 12px 18px 0 rgba(0,0,0,0.1);
+}
+.content {
+	padding: 15px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 25px;
+	margin-left: 10%; 
+	margin-right: 10%; 
+}
+.text {
+	height: 180px;
+}
+a {
+	text-decoration: none; 
+}
+hr {
+	display: block;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 80px;
+}
+p.category {
+	font-size: 10pt;
+	color: gray;
+	letter-spacing: 1.5px;
+}
